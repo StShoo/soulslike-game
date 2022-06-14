@@ -13,6 +13,7 @@ namespace SG
         Vector3 moveDirection;
 
         [HideInInspector] public Transform myTransform;
+        [HideInInspector] public AnimatorHandler animatorHandler;
 
         public new Rigidbody rigidbody;
         public GameObject normalCamera;
@@ -27,8 +28,10 @@ namespace SG
         {
             rigidbody = GetComponent<Rigidbody>();
             inputHandler = GetComponent<InputHandler>();
+            animatorHandler = GetComponentInChildren<AnimatorHandler>();
             cameraObject = Camera.main.transform;
             myTransform = transform;
+            animatorHandler.Initialize();
         }
 
         public void Update()
@@ -46,13 +49,20 @@ namespace SG
 
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
             rigidbody.velocity = projectedVelocity;
+            
+            animatorHandler.UpdateAnimatorsValue(inputHandler.moveAmount, 0);
+
+            if (animatorHandler.canRotate)
+            {
+                HandleRotation(delta);
+            }
         }
 
         #region Movement
         Vector3 normalVector;
         Vector3 targetPosition;
 
-        private void HandlePotation(float delta)
+        private void HandleRotation(float delta)
         {
             Vector3 targetDir = Vector3.zero;
             float moveOverride = inputHandler.moveAmount;
