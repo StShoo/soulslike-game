@@ -45,7 +45,7 @@ namespace SG
             mouseY = cameraInput.y;
         }
 
-        private void TickInput(float delta)
+        public void TickInput(float delta)
         { 
             MoveInput(delta);
         }
