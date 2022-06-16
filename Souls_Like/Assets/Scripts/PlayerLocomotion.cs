@@ -37,10 +37,12 @@ namespace SG
         public void Update()
         {
             float delta = Time.deltaTime;
-
+            
             inputHandler.TickInput(delta);
+            
             HandleMovement(delta);
             
+            HandleRollingAndSprintingAnimation(delta);
         }
 
         #region Movement
@@ -92,6 +94,31 @@ namespace SG
             }
         }
 
+        public void HandleRollingAndSprintingAnimation(float delta)
+        {
+            if (animatorHandler.anim.GetBool("isInteracting"))
+            {
+                return;
+            }
+
+            if (inputHandler.rollFlag)
+            {
+                moveDirection = cameraObject.forward * inputHandler.vertical;
+                moveDirection += cameraObject.right * inputHandler.horizontal;
+
+                if (inputHandler.moveAmount > 0)
+                {
+                    animatorHandler.PlayTargetAnimation("Rolling", true);
+                    moveDirection.y = 0;
+                    Quaternion rollRotation = Quaternion.LookRotation(moveDirection);
+                    myTransform.rotation = rollRotation;
+                }
+                else
+                {
+                    animatorHandler.PlayTargetAnimation("Backstep", true);
+                }
+            }
+        }
         #endregion
     }
 }

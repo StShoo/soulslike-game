@@ -12,6 +12,9 @@ namespace SG
         public float moveAmount;
         public float mouseX;
         public float mouseY;
+        public bool b_Input;
+        public bool rollFlag;
+        public bool isInteracting;
 
         PlayerControls inputActions;
         CameraHandler cameraHandler;
@@ -40,8 +43,8 @@ namespace SG
             if (inputActions == null)
             {
                 inputActions = new PlayerControls();
-                inputActions.PlayerMovment.Movement.performed +=
-                    inputActions => movementInput = inputActions.ReadValue<Vector2>();
+                inputActions.PlayerMovment.Movement.performed += inputActions
+                    => movementInput = inputActions.ReadValue<Vector2>();
                 inputActions.PlayerMovment.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
             }
             
@@ -65,6 +68,17 @@ namespace SG
         public void TickInput(float delta)
         { 
             MoveInput(delta);
+            HandleRollInput(delta);
+        }
+
+        private void HandleRollInput(float delta)
+        {
+            b_Input = inputActions.PlayerActions.Roll.phase == UnityEngine.InputSystem.InputActionPhase.Performed;
+            if (b_Input)
+            {
+                Debug.Log("keyIsPressed");
+                rollFlag = true;
+            }
         }
     }
 }
