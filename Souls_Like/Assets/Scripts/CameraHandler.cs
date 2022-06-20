@@ -10,6 +10,7 @@ namespace SG
         public Transform targetTransform;
         public Transform cameraTransform;
         public Transform cameraPivotTransform;
+        
         private Transform myTransform;
         private Vector3 cameraTransformPosition;
         private LayerMask ignoreLayers;
@@ -43,7 +44,7 @@ namespace SG
         public void FollowTarget(float delta)
         {
             Vector3 targetPosition = Vector3.SmoothDamp
-                (myTransform.position, targetTransform.position, ref cameraFollowVelocity, delta / followSpeed);
+                (transform.position, targetTransform.position, ref cameraFollowVelocity, delta / followSpeed);
             myTransform.position = targetPosition;
             HandleCameraCollision(delta);
         }
