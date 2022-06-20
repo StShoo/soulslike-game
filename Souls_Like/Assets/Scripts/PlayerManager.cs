@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using SG;
@@ -8,20 +9,31 @@ namespace SG
 {
     public class PlayerManager : MonoBehaviour
     {
-        private InputHandler inputHandler;
+        private InputManager inputManager;
+        private PlayerLocomotion playerLocomotion;
         private Animator anim;
+        private CameraManager cameraManager;
     
-        void Start()
+        void Awake()
         {
-            inputHandler = GetComponent<InputHandler>();
-            anim = GetComponentInChildren<Animator>();
+            inputManager = GetComponent<InputManager>();
+            playerLocomotion = GetComponent<PlayerLocomotion>();
+            cameraManager = FindObjectOfType<CameraManager>();
         }
-        
-        void Update()
+
+        private void Update()
         {
-            inputHandler.isInteracting = anim.GetBool("isInteracting");
-            inputHandler.rollFlag = false;
-            inputHandler.sprintFlag = false;
+            inputManager.HandleAllInputs();
+        }
+
+        private void FixedUpdate()
+        {
+            playerLocomotion.HandleAllMovement();
+        }
+
+        private void LateUpdate()
+        {
+            cameraManager.HandleAllCameraMovement();
         }
     }   
 }
