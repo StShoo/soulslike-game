@@ -20,6 +20,7 @@ namespace SG
 
         [Header("Locomotion Status")]
         public bool isStanding;
+        public bool isWalking;
         public bool isSprinting;
         public bool isCrouching;
 
@@ -84,6 +85,15 @@ namespace SG
             moveDirection.Normalize();
             moveDirection.y = 0;
 
+            if (!isSprinting && !isCrouching && inputManager.moveAmount != 0)
+            {
+                isWalking = true;
+            }
+            else
+            {
+                isWalking = false;
+            }
+
             if (isSprinting && !isCrouching)
             {
                 moveDirection *= runningSpeed;
@@ -110,6 +120,7 @@ namespace SG
                     moveDirection *= slowWalkingSpeed;
                 }
             }
+            
 
             Vector3 movementVelocity = moveDirection;
             playerRigidbody.velocity = movementVelocity;
