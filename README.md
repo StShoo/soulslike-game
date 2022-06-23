@@ -6,10 +6,7 @@ Soulslike game project made with Unity engine.
 Install Git
 https://git-scm.com/
 # 2.
-Install git-lfs
-https://git-lfs.github.com/
-# 3.
 github desktop
-# 4.
+# 3.
 Open gitDesktop
-Clone 
+Clone
