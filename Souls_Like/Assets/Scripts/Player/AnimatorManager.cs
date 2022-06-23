@@ -108,12 +108,11 @@ public class AnimatorManager : MonoBehaviour
     {
         if (playerManager.isInteracting == false)
             return;
-    
-        float delta = Time.deltaTime;
+        
         playerLocomotion.playerRigidbody.drag = 0;
         Vector3 deltaPosition = animator.deltaPosition;
         deltaPosition.y = 0;
-        Vector3 velosity = deltaPosition / delta;
+        Vector3 velosity = deltaPosition / Time.deltaTime;
         playerLocomotion.playerRigidbody.velocity = velosity;
     }
 }
