@@ -8,6 +8,7 @@ public class IdleState : State
 {
     private PursueTargetState pursueTargetState;
     private PlayerLocomotion playerLocomotion;
+    private Animator animator;
 
     [SerializeField] private LayerMask detectionLayer;
     [SerializeField] private float detectionRadius = 30f;
@@ -19,15 +20,24 @@ public class IdleState : State
     {
         pursueTargetState = GetComponent<PursueTargetState>();
         playerLocomotion = FindObjectOfType<PlayerLocomotion>();
+        animator = GetComponentInParent<Animator>();
     }
 
-    public override State Tick()
+    public override State Tick(MonsterManager monsterManager)
     {
-        FindATarget();
-        return this;
+        if (monsterManager.curentTarget != null)
+        {
+            return pursueTargetState;
+        }
+        else
+        {
+            FindATarget(monsterManager);
+            StopMovement();
+            return this;
+        }
     }
 
-    private void FindATarget()
+    public void FindATarget(MonsterManager monsterManager)
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position,
             detectionRadius, detectionLayer);
@@ -46,29 +56,44 @@ public class IdleState : State
                 {
                     if (playerLocomotion.isSprinting)
                     {
+                        //Monster Found you!
+                        monsterManager.curentTarget = player;
                         Debug.Log("Monster Found you!");
                     }
                     else
                     {
-                        Debug.Log("Monster is near but cant see you");
+                        //Monster is near but can`t see you
+                        monsterManager.curentTarget = null;
+                        Debug.Log("Monster is near but can`t see you");
                     }
                 }
                 else if (distanceToTarget <= closeDetectionRadius)
                 {
                     if (playerLocomotion.isWalking || playerLocomotion.isSprinting)
                     {
+                        //Monster Found you!
+                        monsterManager.curentTarget = player;
                         Debug.Log("Monster Found you!");
                     }
                     else
                     {
-                        Debug.Log("Monster is very near but cant see you");
+                        //Monster is very near but can`t see you
+                        monsterManager.curentTarget = null;
+                        Debug.Log("Monster is very near but can`t see you");
                     }
                 }
                 else
                 {
-                    Debug.Log("Monster cant see you");
+                    //Monster can`t see you
+                    monsterManager.curentTarget = null;
+                    Debug.Log("Monster can`t see you");
                 }
             }
         }
+    }
+
+    private void StopMovement()
+    {
+        animator.SetFloat("Vertical", 0, 0.2f, Time.deltaTime);
     }
 }

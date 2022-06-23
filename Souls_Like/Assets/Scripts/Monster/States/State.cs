@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class State : MonoBehaviour
 {
-    public virtual State Tick()
+    public virtual State Tick(MonsterManager monsterManager)
     {
         return this;
     }
