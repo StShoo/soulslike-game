@@ -22,7 +22,8 @@ namespace SG
         public float cameraInputX;
         public float cameraInputY;
         
-        public bool Shift_Input;
+        public bool shiftInput;
+        public bool ctrlInput;
         
         // public bool rollFlag;
         // public float rollInputTimer;
@@ -44,10 +45,14 @@ namespace SG
                 playerControls.PlayerMovment.Movement.performed += i
                     => movementInput = i.ReadValue<Vector2>();
 
-                playerControls.PlayerMovment.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
+                playerControls.PlayerMovment.Camera.performed += i => cameraInput =
+                    i.ReadValue<Vector2>();
 
-                playerControls.PlayerActions.Sprint.performed += i => Shift_Input = true;
-                playerControls.PlayerActions.Sprint.canceled += i => Shift_Input = false;
+                playerControls.PlayerActions.Sprint.performed += i => shiftInput = true;
+                playerControls.PlayerActions.Sprint.canceled += i => shiftInput = false;
+                
+                playerControls.PlayerActions.Crouch.performed += i => ctrlInput = true;
+                playerControls.PlayerActions.Crouch.canceled += i => ctrlInput = false;
             }
             
             playerControls.Enable();
@@ -62,6 +67,7 @@ namespace SG
         {
             HandleMovementInput();
             HandleSprintingInput();
+            HandleCrouchingInput();
         }
         
         private void HandleMovementInput()
@@ -73,12 +79,13 @@ namespace SG
             cameraInputY = cameraInput.y;
             
             moveAmount = Mathf.Clamp01(Mathf.Abs(horizontalInput) + Mathf.Abs(verticalInput));
-            animatorManager.UpdateAnimatorValue(0, moveAmount, playerLocomotion.isSprinting);
+            animatorManager.UpdateAnimatorValue(0, moveAmount,
+                playerLocomotion.isSprinting);
         }
         
         private void HandleSprintingInput()
         {
-            if (Shift_Input && moveAmount > 0.5f)
+            if (shiftInput && moveAmount > 0.5f)
             {
                 playerLocomotion.isSprinting = true;
             }
@@ -86,6 +93,11 @@ namespace SG
             {
                 playerLocomotion.isSprinting = false;
             }
+        }
+
+        private void HandleCrouchingInput()
+        {
+            playerLocomotion.isCrouching = ctrlInput;
         }
     }
 }

@@ -7,6 +7,8 @@ using UnityEngine;
 public class AnimatorManager : MonoBehaviour
 {
     private Animator animator;
+    private PlayerManager playerManager;
+    private PlayerLocomotion playerLocomotion;
 
     int horizontal;
     int vertical;
@@ -16,12 +18,15 @@ public class AnimatorManager : MonoBehaviour
     public void Awake()
     {
         animator = GetComponent<Animator>();
+        playerManager = GetComponentInParent<PlayerManager>();
+        playerLocomotion = GetComponentInParent<PlayerLocomotion>();
         
         horizontal = Animator.StringToHash("Horizontal");
         vertical = Animator.StringToHash("Vertical");
     }
 
-    public void UpdateAnimatorValue(float horizontalMovement, float verticalMovement, bool isSprinting)
+    public void UpdateAnimatorValue(float horizontalMovement, float verticalMovement,
+        bool isSprinting)
     {
         float snappedHorizontal;
         float snappedVertical;
@@ -82,12 +87,12 @@ public class AnimatorManager : MonoBehaviour
         animator.SetFloat(vertical, snappedVertical, 0.1f, Time.deltaTime);
     }
 
-    // public void PlayTargetAnimation(string targetAnim, bool isInteracting)
-    // {
-    //     animator.applyRootMotion = isInteracting;
-    //     animator.SetBool("isInteracting", isInteracting);
-    //     animator.CrossFade(targetAnim, 0.2f);
-    // }
+    public void PlayTargetAnimation(string targetAnim, bool isInteracting)
+    {
+        animator.applyRootMotion = isInteracting;
+        animator.SetBool("isInteracting", isInteracting);
+        animator.CrossFade(targetAnim, 0.2f);
+    }
 
     // public void CanRotate()
     // {
@@ -99,16 +104,16 @@ public class AnimatorManager : MonoBehaviour
     //     canRotate = false;
     // }
 
-    // public void OnAnimatorMove()
-    // {
-    //     if (inputManager.isInteracting == false)
-    //         return;
-    //
-    //     float delta = Time.deltaTime;
-    //     playerLocomotion.rigidbody.drag = 0;
-    //     Vector3 deltaPosition = anim.deltaPosition;
-    //     deltaPosition.y = 0;
-    //     Vector3 velosity = deltaPosition / delta;
-    //     playerLocomotion.rigidbody.velocity = velosity;
-    // }
+    public void OnAnimatorMove()
+    {
+        if (playerManager.isInteracting == false)
+            return;
+    
+        float delta = Time.deltaTime;
+        playerLocomotion.playerRigidbody.drag = 0;
+        Vector3 deltaPosition = animator.deltaPosition;
+        deltaPosition.y = 0;
+        Vector3 velosity = deltaPosition / delta;
+        playerLocomotion.playerRigidbody.velocity = velosity;
+    }
 }

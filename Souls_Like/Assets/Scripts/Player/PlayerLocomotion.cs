@@ -8,15 +8,21 @@ namespace SG
 {
     public class PlayerLocomotion : MonoBehaviour
     {
-        Vector3 moveDirection;
-        Transform cameraObject;
-        InputManager inputManager;
-        Rigidbody playerRigidbody;
+        private Vector3 moveDirection;
+        private Transform cameraObject;
+        private InputManager inputManager;
+        private PlayerManager playerManager;
+        private AnimatorManager animatorManager;
+        public Rigidbody playerRigidbody;
 
         [HideInInspector] public Transform myTransform;
         [HideInInspector] public AnimatorManager animatorHandler;
 
+        [Header("Locomotion Status")]
+        public bool isStanding;
+        public bool isWalking;
         public bool isSprinting;
+        public bool isCrouching;
 
         [Header("Movement Stats")]
         [SerializeField]
@@ -32,11 +38,20 @@ namespace SG
         {
             playerRigidbody = GetComponent<Rigidbody>();
             inputManager = GetComponent<InputManager>();
+            playerManager = GetComponent<PlayerManager>();
+            animatorManager = GetComponentInChildren<AnimatorManager>();
             cameraObject = Camera.main.transform;
+            isStanding = true;
         }
 
         public void HandleAllMovement()
         {
+            if (playerManager.isInteracting)
+            {
+                return;
+            }
+
+            HandleCrouching();
             HandleMovement();
             HandleRotation();
         }
@@ -64,15 +79,35 @@ namespace SG
         
         private void HandleMovement()
         {
-
+            
             moveDirection = cameraObject.forward * inputManager.verticalInput;
             moveDirection += cameraObject.right * inputManager.horizontalInput;
             moveDirection.Normalize();
             moveDirection.y = 0;
 
-            if (isSprinting)
+            if (!isSprinting && !isCrouching && inputManager.moveAmount != 0)
+            {
+                isWalking = true;
+            }
+            else
+            {
+                isWalking = false;
+            }
+
+            if (isSprinting && !isCrouching)
             {
                 moveDirection *= runningSpeed;
+            }
+            else if(isCrouching)
+            {
+                if (inputManager.moveAmount >= 0.5f)
+                {
+                    moveDirection *= slowWalkingSpeed;
+                }
+                else
+                {
+                    moveDirection *= slowWalkingSpeed/2;
+                }
             }
             else
             {
@@ -85,9 +120,30 @@ namespace SG
                     moveDirection *= slowWalkingSpeed;
                 }
             }
+            
 
             Vector3 movementVelocity = moveDirection;
             playerRigidbody.velocity = movementVelocity;
+        }
+
+        private void HandleCrouching()
+        {
+            if (isCrouching)
+            {
+                if (isStanding)
+                {
+                    animatorManager.PlayTargetAnimation("Stand To Crouched", true);
+                    isStanding = false;
+                }
+            }
+            else
+            {
+                if (!isStanding)
+                {
+                    animatorManager.PlayTargetAnimation("Crouched To Stand", true);
+                    isStanding = true;
+                }
+            }
         }
     }
 }
