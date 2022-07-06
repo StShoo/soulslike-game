@@ -22,6 +22,8 @@ public class PursueTargetState : State
         }
         else
         {
+            idleState.newIndexOfPoint = idleState.FindClosestIdleMovementPoint();
+            idleState.stateChangedFlag = true;
             return idleState;
         }
     }
