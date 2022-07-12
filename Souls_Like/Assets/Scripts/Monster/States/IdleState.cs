@@ -6,16 +6,22 @@ using UnityEngine;
 
 public class IdleState : State
 {
+    public Transform[] movementPathPoints;
+    
     private PursueTargetState pursueTargetState;
     private PlayerLocomotion playerLocomotion;
     private Animator animator;
-
+    
     [SerializeField] private LayerMask detectionLayer;
     [SerializeField] private float detectionRadius = 30f;
     
     [SerializeField] private float distantDetectionRadius = 20f;
     [SerializeField] private float closeDetectionRadius = 10f;
 
+    public bool stateChangedFlag;
+    public int newIndexOfPoint;
+
+    private int i;
     private void Awake()
     {
         pursueTargetState = GetComponent<PursueTargetState>();
@@ -32,7 +38,7 @@ public class IdleState : State
         else
         {
             FindATarget(monsterManager);
-            StopMovement();
+            MoveTowardsNextIdleMovementPoint(monsterManager);
             return this;
         }
     }
@@ -92,8 +98,64 @@ public class IdleState : State
         }
     }
 
-    private void StopMovement()
+    private void MoveTowardsNextIdleMovementPoint(MonsterManager monsterManager)
     {
-        animator.SetFloat("Vertical", 0, 0.2f, Time.deltaTime);
+        if (stateChangedFlag)
+        {
+            i = newIndexOfPoint;
+            stateChangedFlag = false;
+        }
+        Debug.Log("Index: " + i);
+
+        monsterManager.animator.SetFloat("Vertical", 1, 0.2f, Time.deltaTime);
+        
+        monsterManager.monsterNavMeshAgent.enabled = true;
+        monsterManager.monsterNavMeshAgent.SetDestination(movementPathPoints[i].transform.position);
+        
+        monsterManager.transform.rotation = Quaternion.Slerp(monsterManager.transform.rotation,
+            monsterManager.monsterNavMeshAgent.transform.rotation,
+            monsterManager.rotationSpeed/Time.deltaTime);
+        
+        Vector3 pointDirection = transform.position - movementPathPoints[i].transform.position;
+        float distanceToPoint = Mathf.Sqrt(pointDirection.x * pointDirection.x +
+                                           pointDirection.z * pointDirection.z);
+        
+        
+        if (distanceToPoint <= 1f)
+        {
+            if (i != movementPathPoints.Length - 1)
+            {
+                i++;
+            }
+            else
+            {
+                i = 0;
+            }
+        }
     }
+
+    public int FindClosestIdleMovementPoint()
+    {
+        int indexOfClosestPoint = 0;
+        float minDistanceToPoint = 10000f;
+        for (int j = 0; j < movementPathPoints.Length; j++)
+        {
+
+            Vector3 pointDirection = transform.position - movementPathPoints[j].transform.position;
+            float distanceToPoint = Mathf.Sqrt(pointDirection.x * pointDirection.x +
+                                               pointDirection.z * pointDirection.z);
+
+            if (minDistanceToPoint > distanceToPoint)
+            {
+                minDistanceToPoint = distanceToPoint;
+                indexOfClosestPoint = j;
+            }
+        }
+        return indexOfClosestPoint;
+    }
+    
+    // private void StopMovement()
+    // {
+    //     animator.SetFloat("Vertical", 0, 0.2f, Time.deltaTime);
+    // 
 }
