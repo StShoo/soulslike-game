@@ -10,7 +10,7 @@ namespace SG
         protected Collider interactableCollider;
         [SerializeField] protected GameObject interactableImage;
 
-        private void OnTriggerEnter(Collider other)
+        protected virtual void OnTriggerEnter(Collider other)
         {
             if(player == null)
             {
@@ -20,10 +20,11 @@ namespace SG
             if(player != null)
             {
                 interactableImage.SetActive(true);
+                player.canInteract = true;
             }
         }
 
-        private void OnTriggerExit(Collider other)
+        protected virtual void OnTriggerExit(Collider other)
         {
             if (player == null)
             {
@@ -33,7 +34,25 @@ namespace SG
             if (player != null)
             {
                 interactableImage.SetActive(false);
+                player.canInteract = false;
             }
         }
+
+        protected virtual void OnTriggerStay(Collider other)
+        {
+            if (player != null)
+            {
+                if (player.inputManager.interactInput)
+                {
+                    Interact(player);
+                    player.inputManager.interactInput = false;
+                }
+            }
+        }
+
+        protected virtual void Interact(PlayerManager player)
+        {
+            Debug.Log("you have interacted"); 
+        } 
     }
 }
