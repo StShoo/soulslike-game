@@ -11,6 +11,7 @@ namespace SG
         private PlayerLocomotion playerLocomotion;
         private CameraManager cameraManager;
         private AnimatorManager animatorManager;
+        private PlayerManager playerManager;
         
         public Vector2 movementInput;
         public Vector2 cameraInput;
@@ -25,16 +26,14 @@ namespace SG
         public bool shiftInput;
         public bool ctrlInput;
         
-        // public bool rollFlag;
-        // public float rollInputTimer;
-        // public bool sprintFlag;
-        // public bool isInteracting;
+        public bool interactInput;
 
         private void Awake()
         {
             animatorManager = GetComponentInChildren<AnimatorManager>();
             cameraManager = GetComponent<CameraManager>();
             playerLocomotion = GetComponent<PlayerLocomotion>();
+            playerManager = GetComponent<PlayerManager>();
         }
 
         private void OnEnable()
@@ -53,6 +52,9 @@ namespace SG
                 
                 playerControls.PlayerActions.Crouch.performed += i => ctrlInput = true;
                 playerControls.PlayerActions.Crouch.canceled += i => ctrlInput = false;
+
+                playerControls.PlayerActions.Interact.performed += i => interactInput = true;
+
             }
             
             playerControls.Enable();
@@ -68,6 +70,7 @@ namespace SG
             HandleMovementInput();
             HandleSprintingInput();
             HandleCrouchingInput();
+            HandleInteractionInput();
         }
         
         private void HandleMovementInput()
@@ -98,6 +101,17 @@ namespace SG
         private void HandleCrouchingInput()
         {
             playerLocomotion.isCrouching = ctrlInput;
+        }
+
+        private void HandleInteractionInput()
+        {
+            if (interactInput)
+            {
+                if (!playerManager.canInteract)
+                {
+                    interactInput = false;
+                }
+            }
         }
     }
 }

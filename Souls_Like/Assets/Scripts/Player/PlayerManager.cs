@@ -9,12 +9,13 @@ namespace SG
 {
     public class PlayerManager : MonoBehaviour
     {
-        private InputManager inputManager;
+        public InputManager inputManager;
         private PlayerLocomotion playerLocomotion;
         private Animator animator;
         private CameraManager cameraManager;
 
         public bool isInteracting;
+        public bool canInteract;
     
         void Awake()
         {
