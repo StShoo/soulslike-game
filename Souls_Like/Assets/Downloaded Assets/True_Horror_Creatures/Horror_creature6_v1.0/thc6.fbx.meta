@@ -1,0 +1,4627 @@
+fileFormatVersion: 2
+guid: 1c345d5c2a9b820439fe3bd81aa11b09
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: arach_armature
+  - first:
+      1: 100002
+    second: arm.L
+  - first:
+      1: 100004
+    second: arm.R
+  - first:
+      1: 100006
+    second: bot_arm.L
+  - first:
+      1: 100008
+    second: bot_arm.R
+  - first:
+      1: 100010
+    second: bot_forearm.L
+  - first:
+      1: 100012
+    second: bot_forearm.R
+  - first:
+      1: 100014
+    second: bot_hand.L
+  - first:
+      1: 100016
+    second: bot_hand.L_end
+  - first:
+      1: 100018
+    second: bot_hand.R
+  - first:
+      1: 100020
+    second: bot_hand.R_end
+  - first:
+      1: 100022
+    second: bot_shoulder.L
+  - first:
+      1: 100024
+    second: bot_shoulder.R
+  - first:
+      1: 100026
+    second: fing_lit.L
+  - first:
+      1: 100028
+    second: fing_lit.L_end
+  - first:
+      1: 100030
+    second: fing_lit.R
+  - first:
+      1: 100032
+    second: fing_lit.R_end
+  - first:
+      1: 100034
+    second: fing_mid.L
+  - first:
+      1: 100036
+    second: fing_mid.L_end
+  - first:
+      1: 100038
+    second: fing_mid.R
+  - first:
+      1: 100040
+    second: fing_mid.R_end
+  - first:
+      1: 100042
+    second: fing_th.L
+  - first:
+      1: 100044
+    second: fing_th.L_end
+  - first:
+      1: 100046
+    second: fing_th.R
+  - first:
+      1: 100048
+    second: fing_th.R_end
+  - first:
+      1: 100050
+    second: forearm.L
+  - first:
+      1: 100052
+    second: forearm.R
+  - first:
+      1: 100054
+    second: front_leg1.L
+  - first:
+      1: 100056
+    second: front_leg1.R
+  - first:
+      1: 100058
+    second: front_leg2.L
+  - first:
+      1: 100060
+    second: front_leg2.R
+  - first:
+      1: 100062
+    second: front_leg3.L
+  - first:
+      1: 100064
+    second: front_leg3.R
+  - first:
+      1: 100066
+    second: front_leg4.L
+  - first:
+      1: 100068
+    second: front_leg4.L_end
+  - first:
+      1: 100070
+    second: front_leg4.R
+  - first:
+      1: 100072
+    second: front_leg4.R_end
+  - first:
+      1: 100074
+    second: hand.L
+  - first:
+      1: 100076
+    second: hand.R
+  - first:
+      1: 100078
+    second: head
+  - first:
+      1: 100080
+    second: hip.L
+  - first:
+      1: 100082
+    second: hip.R
+  - first:
+      1: 100084
+    second: hip_base
+  - first:
+      1: 100086
+    second: IK_bot_elbow.L
+  - first:
+      1: 100088
+    second: IK_bot_elbow.L_end
+  - first:
+      1: 100090
+    second: IK_bot_elbow.R
+  - first:
+      1: 100092
+    second: IK_bot_elbow.R_end
+  - first:
+      1: 100094
+    second: IK_bot_hand.L
+  - first:
+      1: 100096
+    second: IK_bot_hand.R
+  - first:
+      1: 100098
+    second: IK_elbow.L
+  - first:
+      1: 100100
+    second: IK_elbow.L_end
+  - first:
+      1: 100102
+    second: IK_elbow.R
+  - first:
+      1: 100104
+    second: IK_elbow.R_end
+  - first:
+      1: 100106
+    second: IK_front_leg.L
+  - first:
+      1: 100108
+    second: IK_front_leg.R
+  - first:
+      1: 100110
+    second: IK_front_leg_knee.L
+  - first:
+      1: 100112
+    second: IK_front_leg_knee.L_end
+  - first:
+      1: 100114
+    second: IK_front_leg_knee.R
+  - first:
+      1: 100116
+    second: IK_front_leg_knee.R_end
+  - first:
+      1: 100118
+    second: IK_hand.L
+  - first:
+      1: 100120
+    second: IK_hand.R
+  - first:
+      1: 100122
+    second: IK_rear_knee.L
+  - first:
+      1: 100124
+    second: IK_rear_knee.L_end
+  - first:
+      1: 100126
+    second: IK_rear_knee.R
+  - first:
+      1: 100128
+    second: IK_rear_knee.R_end
+  - first:
+      1: 100130
+    second: IK_rear_leg.L
+  - first:
+      1: 100132
+    second: IK_rear_leg.R
+  - first:
+      1: 100134
+    second: jaw.L
+  - first:
+      1: 100136
+    second: jaw.L_end
+  - first:
+      1: 100138
+    second: jaw.R
+  - first:
+      1: 100140
+    second: jaw.R_end
+  - first:
+      1: 100142
+    second: neck
+  - first:
+      1: 100144
+    second: rear_hip.L
+  - first:
+      1: 100146
+    second: rear_hip.R
+  - first:
+      1: 100148
+    second: rear_leg1.L
+  - first:
+      1: 100150
+    second: rear_leg1.R
+  - first:
+      1: 100152
+    second: rear_leg2.L
+  - first:
+      1: 100154
+    second: rear_leg2.R
+  - first:
+      1: 100156
+    second: rear_leg3.L
+  - first:
+      1: 100158
+    second: rear_leg3.R
+  - first:
+      1: 100160
+    second: rear_leg4.L
+  - first:
+      1: 100162
+    second: rear_leg4.L_end
+  - first:
+      1: 100164
+    second: rear_leg4.R
+  - first:
+      1: 100166
+    second: rear_leg4.R_end
+  - first:
+      1: 100168
+    second: root
+  - first:
+      1: 100170
+    second: shoulder.L
+  - first:
+      1: 100172
+    second: shoulder.R
+  - first:
+      1: 100174
+    second: spine_0
+  - first:
+      1: 100176
+    second: spine_1
+  - first:
+      1: 100178
+    second: spine_2
+  - first:
+      1: 100180
+    second: //RootNode
+  - first:
+      1: 100182
+    second: thc6
+  - first:
+      4: 400000
+    second: arach_armature
+  - first:
+      4: 400002
+    second: arm.L
+  - first:
+      4: 400004
+    second: arm.R
+  - first:
+      4: 400006
+    second: bot_arm.L
+  - first:
+      4: 400008
+    second: bot_arm.R
+  - first:
+      4: 400010
+    second: bot_forearm.L
+  - first:
+      4: 400012
+    second: bot_forearm.R
+  - first:
+      4: 400014
+    second: bot_hand.L
+  - first:
+      4: 400016
+    second: bot_hand.L_end
+  - first:
+      4: 400018
+    second: bot_hand.R
+  - first:
+      4: 400020
+    second: bot_hand.R_end
+  - first:
+      4: 400022
+    second: bot_shoulder.L
+  - first:
+      4: 400024
+    second: bot_shoulder.R
+  - first:
+      4: 400026
+    second: fing_lit.L
+  - first:
+      4: 400028
+    second: fing_lit.L_end
+  - first:
+      4: 400030
+    second: fing_lit.R
+  - first:
+      4: 400032
+    second: fing_lit.R_end
+  - first:
+      4: 400034
+    second: fing_mid.L
+  - first:
+      4: 400036
+    second: fing_mid.L_end
+  - first:
+      4: 400038
+    second: fing_mid.R
+  - first:
+      4: 400040
+    second: fing_mid.R_end
+  - first:
+      4: 400042
+    second: fing_th.L
+  - first:
+      4: 400044
+    second: fing_th.L_end
+  - first:
+      4: 400046
+    second: fing_th.R
+  - first:
+      4: 400048
+    second: fing_th.R_end
+  - first:
+      4: 400050
+    second: forearm.L
+  - first:
+      4: 400052
+    second: forearm.R
+  - first:
+      4: 400054
+    second: front_leg1.L
+  - first:
+      4: 400056
+    second: front_leg1.R
+  - first:
+      4: 400058
+    second: front_leg2.L
+  - first:
+      4: 400060
+    second: front_leg2.R
+  - first:
+      4: 400062
+    second: front_leg3.L
+  - first:
+      4: 400064
+    second: front_leg3.R
+  - first:
+      4: 400066
+    second: front_leg4.L
+  - first:
+      4: 400068
+    second: front_leg4.L_end
+  - first:
+      4: 400070
+    second: front_leg4.R
+  - first:
+      4: 400072
+    second: front_leg4.R_end
+  - first:
+      4: 400074
+    second: hand.L
+  - first:
+      4: 400076
+    second: hand.R
+  - first:
+      4: 400078
+    second: head
+  - first:
+      4: 400080
+    second: hip.L
+  - first:
+      4: 400082
+    second: hip.R
+  - first:
+      4: 400084
+    second: hip_base
+  - first:
+      4: 400086
+    second: IK_bot_elbow.L
+  - first:
+      4: 400088
+    second: IK_bot_elbow.L_end
+  - first:
+      4: 400090
+    second: IK_bot_elbow.R
+  - first:
+      4: 400092
+    second: IK_bot_elbow.R_end
+  - first:
+      4: 400094
+    second: IK_bot_hand.L
+  - first:
+      4: 400096
+    second: IK_bot_hand.R
+  - first:
+      4: 400098
+    second: IK_elbow.L
+  - first:
+      4: 400100
+    second: IK_elbow.L_end
+  - first:
+      4: 400102
+    second: IK_elbow.R
+  - first:
+      4: 400104
+    second: IK_elbow.R_end
+  - first:
+      4: 400106
+    second: IK_front_leg.L
+  - first:
+      4: 400108
+    second: IK_front_leg.R
+  - first:
+      4: 400110
+    second: IK_front_leg_knee.L
+  - first:
+      4: 400112
+    second: IK_front_leg_knee.L_end
+  - first:
+      4: 400114
+    second: IK_front_leg_knee.R
+  - first:
+      4: 400116
+    second: IK_front_leg_knee.R_end
+  - first:
+      4: 400118
+    second: IK_hand.L
+  - first:
+      4: 400120
+    second: IK_hand.R
+  - first:
+      4: 400122
+    second: IK_rear_knee.L
+  - first:
+      4: 400124
+    second: IK_rear_knee.L_end
+  - first:
+      4: 400126
+    second: IK_rear_knee.R
+  - first:
+      4: 400128
+    second: IK_rear_knee.R_end
+  - first:
+      4: 400130
+    second: IK_rear_leg.L
+  - first:
+      4: 400132
+    second: IK_rear_leg.R
+  - first:
+      4: 400134
+    second: jaw.L
+  - first:
+      4: 400136
+    second: jaw.L_end
+  - first:
+      4: 400138
+    second: jaw.R
+  - first:
+      4: 400140
+    second: jaw.R_end
+  - first:
+      4: 400142
+    second: neck
+  - first:
+      4: 400144
+    second: rear_hip.L
+  - first:
+      4: 400146
+    second: rear_hip.R
+  - first:
+      4: 400148
+    second: rear_leg1.L
+  - first:
+      4: 400150
+    second: rear_leg1.R
+  - first:
+      4: 400152
+    second: rear_leg2.L
+  - first:
+      4: 400154
+    second: rear_leg2.R
+  - first:
+      4: 400156
+    second: rear_leg3.L
+  - first:
+      4: 400158
+    second: rear_leg3.R
+  - first:
+      4: 400160
+    second: rear_leg4.L
+  - first:
+      4: 400162
+    second: rear_leg4.L_end
+  - first:
+      4: 400164
+    second: rear_leg4.R
+  - first:
+      4: 400166
+    second: rear_leg4.R_end
+  - first:
+      4: 400168
+    second: root
+  - first:
+      4: 400170
+    second: shoulder.L
+  - first:
+      4: 400172
+    second: shoulder.R
+  - first:
+      4: 400174
+    second: spine_0
+  - first:
+      4: 400176
+    second: spine_1
+  - first:
+      4: 400178
+    second: spine_2
+  - first:
+      4: 400180
+    second: thc6
+  - first:
+      4: 400182
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: thc6
+  - first:
+      74: 7400000
+    second: arach_armature|attack1
+  - first:
+      74: 7400002
+    second: arach_armature|attack2
+  - first:
+      74: 7400004
+    second: arach_armature|attack3
+  - first:
+      74: 7400006
+    second: arach_armature|death2
+  - first:
+      74: 7400008
+    second: arach_armature|death_fall
+  - first:
+      74: 7400010
+    second: arach_armature|hit1
+  - first:
+      74: 7400012
+    second: arach_armature|hit2
+  - first:
+      74: 7400014
+    second: arach_armature|howl
+  - first:
+      74: 7400016
+    second: arach_armature|idle
+  - first:
+      74: 7400018
+    second: arach_armature|idle_battle
+  - first:
+      74: 7400020
+    second: arach_armature|jump
+  - first:
+      74: 7400022
+    second: arach_armature|power_hit
+  - first:
+      74: 7400024
+    second: arach_armature|rising
+  - first:
+      74: 7400026
+    second: arach_armature|run
+  - first:
+      74: 7400028
+    second: arach_armature|walk
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: thc6
+  - first:
+      74: 3159396903280838106
+    second: arach_armature|walk (1)
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'arach_armature|death2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'rear_hip.L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'rear_hip.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'arach_armature|death_fall' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'rear_hip.L' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'rear_hip.R' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'arach_armature|jump'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'rear_hip.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rear_hip.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'arach_armature|power_hit' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'rear_hip.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rear_hip.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'arach_armature|rising' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'rear_hip.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rear_hip.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'arach_armature|run' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'rear_hip.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rear_hip.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'arach_armature|walk' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'rear_hip.L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'rear_hip.R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: arach_armature|attack1
+      takeName: arach_armature|attack1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|attack2
+      takeName: arach_armature|attack2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|attack3
+      takeName: arach_armature|attack3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|death2
+      takeName: arach_armature|death2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|death_fall
+      takeName: arach_armature|death_fall
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|hit1
+      takeName: arach_armature|hit1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|hit2
+      takeName: arach_armature|hit2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|howl
+      takeName: arach_armature|howl
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|idle
+      takeName: arach_armature|idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|idle_battle
+      takeName: arach_armature|idle_battle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|jump
+      takeName: arach_armature|jump
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|power_hit
+      takeName: arach_armature|power_hit
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|rising
+      takeName: arach_armature|rising
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|walk (1)
+      takeName: arach_armature|walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: arach_armature|walk
+      takeName: arach_armature|walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arach_armature
+        weight: 1
+      - path: arach_armature/root
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L
+        weight: 1
+      - path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/IK_hand.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R
+        weight: 1
+      - path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+        weight: 1
+      - path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+        weight: 1
+      - path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+        weight: 1
+      - path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+        weight: 1
+      - path: thc6
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: spine_0
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg1.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg1.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg2.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg2.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg3.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg3.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg4.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rear_leg4.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing_mid.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing_th.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing_lit.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing_mid.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing_th.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing_lit.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: thc6(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arach_armature
+      parentName: thc6(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: arach_armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0.00000008429368, z: -0.000000084293696, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_rear_leg.L
+      parentName: root
+      position: {x: -0.34187543, y: 0.42532638, z: -0.7283612}
+      rotation: {x: -0.7071067, y: 0.00000007467683, z: 0.00000007467679, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_rear_knee.L
+      parentName: IK_rear_leg.L
+      position: {x: -0.20416489, y: 0.22212847, z: 1.0823857}
+      rotation: {x: 0.7071067, y: 0.000000009616869, z: 0.000000009616862, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_rear_knee.L_end
+      parentName: IK_rear_knee.L
+      position: {x: -0, y: 0.35766575, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_hand.L
+      parentName: root
+      position: {x: -0.37817666, y: 1.0721241, z: 0.4793619}
+      rotation: {x: -0.70710665, y: 0.0000000648981, z: 0.000000064898046, w: 0.7071069}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_elbow.L
+      parentName: IK_hand.L
+      position: {x: -0.028614711, y: 1.2960502, z: 0.16790347}
+      rotation: {x: -0, y: 1.0658143e-14, z: 0.00000004562305, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: IK_elbow.L_end
+      parentName: IK_elbow.L
+      position: {x: -0, y: 0.32661456, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_front_leg.L
+      parentName: root
+      position: {x: -0.24623667, y: 0.22207233, z: 0.22048022}
+      rotation: {x: -0.70710665, y: 0.0000000903123, z: 0.00000009031222, w: 0.7071069}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_front_leg_knee.L
+      parentName: IK_front_leg.L
+      position: {x: 0.018989224, y: 0.50891113, z: 0.21267927}
+      rotation: {x: -0.00000005960465, y: -2.8421713e-14, z: -0.000000009359703, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: IK_front_leg_knee.L_end
+      parentName: IK_front_leg_knee.L
+      position: {x: -0, y: 0.29851052, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_0
+      parentName: root
+      position: {x: 0.0025221088, y: 1.7520922, z: -0.13407709}
+      rotation: {x: 0.24237254, y: -0.0008215509, z: 0.004120184, w: 0.9701742}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: spine_1
+      parentName: spine_0
+      position: {x: -0.0000000073559923, y: 0.3004933, z: -0.0000000123181945}
+      rotation: {x: 0.0041643996, y: 0.9837183, z: -0.17966862, w: -0.00055569183}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1.0000001}
+    - name: spine_2
+      parentName: spine_1
+      position: {x: 0.0000000071613604, y: 0.25641173, z: 0.000000011856171}
+      rotation: {x: -0.14828664, y: 0.00000003183231, z: 0.00000002654269, w: 0.9889444}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: neck
+      parentName: spine_2
+      position: {x: -9.058566e-10, y: 0.35733482, z: -0.000000011132214}
+      rotation: {x: -0.023539107, y: 0.0000006275568, z: -0.000000012125829, w: 0.9997229}
+      scale: {x: 0.99999994, y: 0.99999964, z: 1}
+    - name: head
+      parentName: neck
+      position: {x: 0.0000000032523526, y: 0.16463548, z: -0.000000022962919}
+      rotation: {x: 0.00000014688584, y: -0.94129753, z: -0.33757818, w: -0.00000063180323}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.99999946}
+    - name: jaw.L
+      parentName: head
+      position: {x: -0.07446983, y: -0.008691333, z: 0.019749975}
+      rotation: {x: 0.05739511, y: 0.67862374, z: 0.72990227, w: -0.058466356}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: jaw.L_end
+      parentName: jaw.L
+      position: {x: -0, y: 0.21080205, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw.R
+      parentName: head
+      position: {x: 0.07446981, y: -0.008691262, z: 0.019749895}
+      rotation: {x: -0.054115154, y: 0.67835414, z: 0.73015285, w: 0.061514407}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jaw.R_end
+      parentName: jaw.R
+      position: {x: -0, y: 0.21080205, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: spine_2
+      position: {x: -9.058566e-10, y: 0.35733482, z: -0.000000011132214}
+      rotation: {x: 0.45429656, y: 0.25917327, z: 0.6536591, w: -0.5469677}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999999}
+    - name: arm.L
+      parentName: shoulder.L
+      position: {x: -0.000000042375174, y: 0.39165047, z: -0.000000014901159}
+      rotation: {x: 0.13980652, y: -0.12619962, z: -0.040834486, w: 0.98125446}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999992}
+    - name: forearm.L
+      parentName: arm.L
+      position: {x: 0.00000020116565, y: 0.42283303, z: 0.00000009685753}
+      rotation: {x: -0.021649543, y: 0.64110917, z: 0.00075060886, w: -0.7671439}
+      scale: {x: 0.9999993, y: 0.9999998, z: 1.0000006}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: -0.00000001862645, y: 0.6351973, z: -0.000000014901159}
+      rotation: {x: -0.027647268, y: -0.852783, z: 0.52125925, w: 0.016898897}
+      scale: {x: 1.0000005, y: 0.9999998, z: 0.9999999}
+    - name: fing_mid.L
+      parentName: hand.L
+      position: {x: -0, y: 0.27071232, z: -0.000000022351738}
+      rotation: {x: -0.049470864, y: -0.0000004535541, z: -0.00000035203993, w: -0.99877566}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: fing_mid.L_end
+      parentName: fing_mid.L
+      position: {x: -0, y: 0.20739552, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fing_th.L
+      parentName: hand.L
+      position: {x: 0.03692208, y: 0.20893699, z: 0.017135805}
+      rotation: {x: -0.05945678, y: -0.06281477, z: 0.006724382, w: -0.99622995}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000006}
+    - name: fing_th.L_end
+      parentName: fing_th.L
+      position: {x: -0, y: 0.10443918, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fing_lit.L
+      parentName: hand.L
+      position: {x: -0.03764255, y: 0.21924302, z: 0.006374172}
+      rotation: {x: -0.056475222, y: 0.0031201548, z: -0.0056288987, w: -0.9983833}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000002}
+    - name: fing_lit.L_end
+      parentName: fing_lit.L
+      position: {x: -0, y: 0.119970866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: spine_2
+      position: {x: -9.058566e-10, y: 0.35733482, z: -0.000000011132214}
+      rotation: {x: -0.66950244, y: 0.55589473, z: -0.43060657, w: -0.23942763}
+      scale: {x: 0.9999997, y: 1.0000005, z: 0.9999999}
+    - name: arm.R
+      parentName: shoulder.R
+      position: {x: 0.00000001862645, y: 0.3916506, z: 0.00000009685753}
+      rotation: {x: 0.12211381, y: -0.4671508, z: 0.07938277, w: -0.87209904}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: forearm.R
+      parentName: arm.R
+      position: {x: -0.000000100582824, y: 0.42283314, z: 0.000000101514146}
+      rotation: {x: 0.0076858234, y: 0.93279994, z: -0.020253154, w: -0.35974312}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: -0.000000022351738, y: 0.6351973, z: -0.0000000745058}
+      rotation: {x: 0.027647637, y: -0.85278296, z: 0.5212593, w: -0.016899731}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: fing_mid.R
+      parentName: hand.R
+      position: {x: 0.000000009313225, y: 0.27071208, z: 0.00000006705522}
+      rotation: {x: -0.049469426, y: -0.0000005289911, z: -0.00000032037488, w: -0.99877566}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: fing_mid.R_end
+      parentName: fing_mid.R
+      position: {x: -0, y: 0.20739552, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fing_th.R
+      parentName: hand.R
+      position: {x: -0.03692203, y: 0.20893669, z: 0.017136058}
+      rotation: {x: -0.05921634, y: 0.031592235, z: -0.008583501, w: -0.9977082}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000006}
+    - name: fing_th.R_end
+      parentName: fing_th.R
+      position: {x: -0, y: 0.10443918, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fing_lit.R
+      parentName: hand.R
+      position: {x: 0.03764258, y: 0.21924278, z: 0.006374269}
+      rotation: {x: -0.056712497, y: -0.0638047, z: 0.00218553, w: -0.9963473}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: fing_lit.R_end
+      parentName: fing_lit.R
+      position: {x: -0, y: 0.119970866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bot_shoulder.L
+      parentName: spine_1
+      position: {x: 0.0000000071613604, y: 0.25641173, z: 0.000000011856171}
+      rotation: {x: -0.6761103, y: -0.12590604, z: -0.6662106, w: 0.2884198}
+      scale: {x: 0.9999995, y: 0.9999998, z: 0.99999976}
+    - name: bot_arm.L
+      parentName: bot_shoulder.L
+      position: {x: -0.000000010710209, y: 0.23944527, z: 0.0000001369044}
+      rotation: {x: 0.09857479, y: -0.5302704, z: 0.31032145, w: 0.7828135}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000001}
+    - name: bot_forearm.L
+      parentName: bot_arm.L
+      position: {x: -0.00000007217749, y: 0.24302126, z: -0.000000057741993}
+      rotation: {x: 0.28784764, y: 0.017035782, z: 0.15582861, w: 0.9447598}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000008}
+    - name: bot_hand.L
+      parentName: bot_forearm.L
+      position: {x: 0.000000038649883, y: 0.2460384, z: -0.000000036787238}
+      rotation: {x: -0.026451688, y: -0.7061215, z: 0.7071005, w: 0.026488177}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: bot_hand.L_end
+      parentName: bot_hand.L
+      position: {x: -0, y: 0.22200355, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bot_shoulder.R
+      parentName: spine_1
+      position: {x: 0.0000000071613604, y: 0.25641173, z: 0.000000011856171}
+      rotation: {x: -0.728581, y: 0.29926005, z: -0.60838497, w: -0.09737001}
+      scale: {x: 0.9999991, y: 0.9999994, z: 0.9999997}
+    - name: bot_arm.R
+      parentName: bot_shoulder.R
+      position: {x: 0.00000006146728, y: 0.23944551, z: 0.000000011175869}
+      rotation: {x: 0.31722477, y: -0.7175248, z: 0.0733808, w: 0.61574507}
+      scale: {x: 0.99999976, y: 1.0000004, z: 0.99999994}
+    - name: bot_forearm.R
+      parentName: bot_arm.R
+      position: {x: 0.000000055879347, y: 0.2430215, z: 0.000000044703476}
+      rotation: {x: 0.2904223, y: -0.032886293, z: -0.15097637, w: 0.9443408}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000002}
+    - name: bot_hand.R
+      parentName: bot_forearm.R
+      position: {x: 0.000000014901159, y: 0.24603845, z: 0.000000026077029}
+      rotation: {x: 0.026451254, y: -0.7061212, z: 0.7071008, w: -0.026488438}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: bot_hand.R_end
+      parentName: bot_hand.R
+      position: {x: -0, y: 0.22200355, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_bot_hand.L
+      parentName: spine_1
+      position: {x: 0.26933017, y: -0.06868873, z: -0.21618441}
+      rotation: {x: -0.000000117812306, y: -0.66031396, z: -0.7509897, w: 0.00000005005859}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999976}
+    - name: IK_bot_elbow.L
+      parentName: IK_bot_hand.L
+      position: {x: -0.3386547, y: 0.73656887, z: 0.32561544}
+      rotation: {x: 4.7203994e-15, y: 0.00000004091464, z: -1.0864198e-11, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: IK_bot_elbow.L_end
+      parentName: IK_bot_elbow.L
+      position: {x: -0, y: 0.23242801, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_bot_hand.R
+      parentName: spine_1
+      position: {x: -0.15259339, y: -0.03127055, z: -0.33200783}
+      rotation: {x: -0.000000117579475, y: -0.6603139, z: -0.7509898, w: 0.00000005052425}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999998}
+    - name: IK_bot_elbow.R
+      parentName: IK_bot_hand.R
+      position: {x: 0.48626536, y: 0.70261246, z: 0.21406242}
+      rotation: {x: -0.00000008940696, y: 0.00000004060717, z: -3.6055775e-10, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: IK_bot_elbow.R_end
+      parentName: IK_bot_elbow.R
+      position: {x: -0, y: 0.23242801, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hip_base
+      parentName: spine_0
+      position: {x: -0.000000009778886, y: 0.000000018451827, z: -0.000000017862474}
+      rotation: {x: 0.0027289803, y: 0.6852956, z: 0.7282529, w: 0.0031940513}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: hip.L
+      parentName: hip_base
+      position: {x: 0.0000000018717399, y: 0.19605854, z: -0.0000000010104485}
+      rotation: {x: 0.15971074, y: 0.22611696, z: -0.54928154, w: 0.78845}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: front_leg1.L
+      parentName: hip.L
+      position: {x: 0.000000006519257, y: 0.19224176, z: -0.000000006053596}
+      rotation: {x: 0.5769758, y: -0.04456902, z: 0.18558174, w: -0.7941486}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: front_leg2.L
+      parentName: front_leg1.L
+      position: {x: 0.000000008381902, y: 0.3256304, z: 0.000000036787238}
+      rotation: {x: -0.28299853, y: 0.6058386, z: -0.3465444, w: -0.657859}
+      scale: {x: 0.9999997, y: 1, z: 0.99999976}
+    - name: front_leg3.L
+      parentName: front_leg2.L
+      position: {x: -0.000000009313225, y: 0.29344344, z: -0.000000014901159}
+      rotation: {x: -0.26640314, y: -0.03391516, z: -0.027314376, w: 0.9628776}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999996}
+    - name: front_leg4.L
+      parentName: front_leg3.L
+      position: {x: -0.0000000051222737, y: 0.19599417, z: -0.000000020023434}
+      rotation: {x: -0.04903869, y: 0.6742711, z: -0.73573154, w: 0.04065484}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: front_leg4.L_end
+      parentName: front_leg4.L
+      position: {x: -0, y: 0.17806378, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hip.R
+      parentName: hip_base
+      position: {x: 0.005044053, y: 0.19605853, z: -0.000000004686171}
+      rotation: {x: 0.1518449, y: -0.22063085, z: -0.551508, w: -0.7900026}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: front_leg1.R
+      parentName: hip.R
+      position: {x: -0.0000000037252899, y: 0.19224179, z: 0.00000007823109}
+      rotation: {x: 0.15976903, y: 0.6647231, z: -0.5846499, w: 0.43680835}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1}
+    - name: front_leg2.R
+      parentName: front_leg1.R
+      position: {x: -0.000000012107192, y: 0.32563046, z: -0.00000001536682}
+      rotation: {x: -0.33897558, y: 0.6735772, z: -0.29202163, w: -0.5883134}
+      scale: {x: 0.9999998, y: 0.99999946, z: 1.0000002}
+    - name: front_leg3.R
+      parentName: front_leg2.R
+      position: {x: 0.0000000055879346, y: 0.29344344, z: 0.00000001862645}
+      rotation: {x: -0.26588508, y: 0.017085522, z: 0.03196509, w: 0.9633232}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999995}
+    - name: front_leg4.R
+      parentName: front_leg3.R
+      position: {x: -0.000000004423782, y: 0.19599418, z: -0.0000000032596286}
+      rotation: {x: 0.0361757, y: 0.67345774, z: -0.7364762, w: -0.052430175}
+      scale: {x: 1, y: 1.0000005, z: 1.0000006}
+    - name: front_leg4.R_end
+      parentName: front_leg4.R
+      position: {x: -0, y: 0.17806378, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rear_hip.L
+      parentName: spine_0
+      position: {x: -0.000000009778886, y: 0.000000018451827, z: -0.000000017862474}
+      rotation: {x: -0.79338944, y: 0.3681097, z: 0.23769987, w: 0.4225248}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: rear_leg1.L
+      parentName: rear_hip.L
+      position: {x: 0.0000000018626449, y: 0.23203681, z: 0.000000105006606}
+      rotation: {x: -0.59786415, y: 0.052825585, z: -0.06973606, w: 0.7968092}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: rear_leg2.L
+      parentName: rear_leg1.L
+      position: {x: -0.000000029802319, y: 0.56754404, z: -0.000000044703476}
+      rotation: {x: 0.13809481, y: -0.1908199, z: 0.043041855, w: -0.9709094}
+      scale: {x: 0.99999994, y: 1.0000006, z: 0.9999998}
+    - name: rear_leg3.L
+      parentName: rear_leg2.L
+      position: {x: 0.000000012340022, y: 0.77185297, z: 0.000000022351738}
+      rotation: {x: 0.025486154, y: -0.23850565, z: 0.05893025, w: 0.9690163}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1.0000006}
+    - name: rear_leg4.L
+      parentName: rear_leg3.L
+      position: {x: -0.0000000034924592, y: 0.35435265, z: 0.0000000060527148}
+      rotation: {x: -0.6701805, y: 0.09507518, z: -0.049233306, w: -0.73443514}
+      scale: {x: 0.99999994, y: 1, z: 1.0000006}
+    - name: rear_leg4.L_end
+      parentName: rear_leg4.L
+      position: {x: -0, y: 0.2414925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rear_hip.R
+      parentName: spine_0
+      position: {x: -0.0050438815, y: 0.000042334195, z: -0.0000020412406}
+      rotation: {x: -0.81926477, y: -0.4086063, z: -0.14607126, w: 0.37484574}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: rear_leg1.R
+      parentName: rear_hip.R
+      position: {x: -0, y: 0.23203677, z: 0.000000054016702}
+      rotation: {x: -0.5854878, y: 0.04140021, z: 0.13967389, w: 0.79748434}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: rear_leg2.R
+      parentName: rear_leg1.R
+      position: {x: 0.000000014901159, y: 0.5675443, z: -0.0000000018626449}
+      rotation: {x: 0.13809459, y: 0.19082038, z: -0.04304182, w: -0.97090936}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999996}
+    - name: rear_leg3.R
+      parentName: rear_leg2.R
+      position: {x: 0.000000009313225, y: 0.7718531, z: 0.00000007078051}
+      rotation: {x: 0.025485624, y: 0.23850688, z: -0.058930073, w: 0.96901613}
+      scale: {x: 0.99999994, y: 0.9999989, z: 1}
+    - name: rear_leg4.R
+      parentName: rear_leg3.R
+      position: {x: -0.00000003771856, y: 0.35435274, z: -0.000000020071637}
+      rotation: {x: -0.67018056, y: -0.09507592, z: 0.049234204, w: -0.73443496}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: rear_leg4.R_end
+      parentName: rear_leg4.R
+      position: {x: -0, y: 0.2414925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_rear_leg.R
+      parentName: root
+      position: {x: 0.34187505, y: 0.4253264, z: -0.926473}
+      rotation: {x: -0.7071067, y: 0.000000074676805, z: 0.00000007467677, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_rear_knee.R
+      parentName: IK_rear_leg.R
+      position: {x: 0.20416489, y: 0.22212861, z: 1.0823857}
+      rotation: {x: 0.7071067, y: 0.00000000961689, z: 0.000000009616883, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_rear_knee.R_end
+      parentName: IK_rear_knee.R
+      position: {x: -0, y: 0.35766575, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_hand.R
+      parentName: root
+      position: {x: 0.48587975, y: 1.4380728, z: 0.55020905}
+      rotation: {x: -0.70710665, y: 0.0000000648981, z: 0.000000064898046, w: 0.7071069}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_elbow.R
+      parentName: IK_hand.R
+      position: {x: -0.02706448, y: 1.2960501, z: -0.6784227}
+      rotation: {x: -0, y: 1.0658143e-14, z: 0.00000004562305, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: IK_elbow.R_end
+      parentName: IK_elbow.R
+      position: {x: -0, y: 0.32661456, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_front_leg.R
+      parentName: root
+      position: {x: 0.24623682, y: 0.22207232, z: 0.37936816}
+      rotation: {x: -0.70710665, y: 0.0000000903123, z: 0.00000009031222, w: 0.7071069}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: IK_front_leg_knee.R
+      parentName: IK_front_leg.R
+      position: {x: -0.018989217, y: 0.5089111, z: 0.21267927}
+      rotation: {x: -0.00000005960465, y: -2.8421713e-14, z: -0.000000009359703, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: IK_front_leg_knee.R_end
+      parentName: IK_front_leg_knee.R
+      position: {x: -0, y: 0.29851052, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thc6
+      parentName: thc6(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
