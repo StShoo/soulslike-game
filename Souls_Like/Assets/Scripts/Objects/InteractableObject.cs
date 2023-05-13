@@ -7,7 +7,7 @@ namespace SG
     public class InteractableObject : MonoBehaviour
     {
         protected PlayerManager player;
-        protected Collider interactableCollider;
+        [SerializeField] protected Collider interactableCollider;
         [SerializeField] protected GameObject interactableImage;
 
         protected virtual void OnTriggerEnter(Collider other)
