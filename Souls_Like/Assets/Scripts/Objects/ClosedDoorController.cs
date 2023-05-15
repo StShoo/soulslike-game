@@ -11,6 +11,8 @@ public class ClosedDoorController : DoorController
         if (playerHasAKey)
         {
             base.Interact(player);
+            Destroy(gameObject.GetComponent<SphereCollider>());
+            interactableImage.SetActive(false);
         }
         else
         {
