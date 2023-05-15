@@ -7,22 +7,22 @@ using UnityEngine;
 public class IdleState : State
 {
     public Transform[] movementPathPoints;
+
+    protected PursueTargetState pursueTargetState;
+    protected PlayerLocomotion playerLocomotion;
+    protected Animator animator;
     
-    private PursueTargetState pursueTargetState;
-    private PlayerLocomotion playerLocomotion;
-    private Animator animator;
+    [SerializeField] protected LayerMask detectionLayer;
+    [SerializeField] protected float detectionRadius = 30f;
     
-    [SerializeField] private LayerMask detectionLayer;
-    [SerializeField] private float detectionRadius = 30f;
-    
-    [SerializeField] private float distantDetectionRadius = 20f;
-    [SerializeField] private float closeDetectionRadius = 10f;
+    [SerializeField] protected float distantDetectionRadius = 20f;
+    [SerializeField] protected float closeDetectionRadius = 10f;
 
     public bool stateChangedFlag;
     public int newIndexOfPoint;
 
-    private int i;
-    private void Awake()
+    protected int i;
+    protected void Awake()
     {
         pursueTargetState = GetComponent<PursueTargetState>();
         playerLocomotion = FindObjectOfType<PlayerLocomotion>();
@@ -98,11 +98,11 @@ public class IdleState : State
         }
     }
 
-    private void MoveTowardsNextIdleMovementPoint(MonsterManager monsterManager)
+    protected virtual void MoveTowardsNextIdleMovementPoint(MonsterManager monsterManager)
     {
         if (stateChangedFlag)
         {
-            i = newIndexOfPoint;
+            i = newIndexOfPoint + 1;
             stateChangedFlag = false;
         }
         Debug.Log("Index: " + i);
@@ -153,9 +153,9 @@ public class IdleState : State
         }
         return indexOfClosestPoint;
     }
-    
-    // private void StopMovement()
-    // {
-    //     animator.SetFloat("Vertical", 0, 0.2f, Time.deltaTime);
-    // 
+
+    protected void StopMovement()
+    {
+        animator.SetFloat("Vertical", 0, 0f, Time.deltaTime);
+    }
 }

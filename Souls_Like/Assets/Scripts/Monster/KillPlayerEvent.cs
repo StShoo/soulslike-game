@@ -7,10 +7,19 @@ public class KillPlayerEvent : BaseEventTrigger
 {
     [SerializeField]
     protected GameObject panel;
+    [SerializeField]
     protected GameObject gameOverText;
+
+    protected Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     protected override void StartEvent()
     {
+        animator.SetBool("Attack", true);
         panel.GetComponent<Animator>().SetBool("goDark", true);
         StartCoroutine(Timedelay());
     }
@@ -26,7 +35,7 @@ public class KillPlayerEvent : BaseEventTrigger
     {
         yield return new WaitForSeconds(1);
         gameOverText.GetComponent<Animator>().SetBool("DeathScreen", true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene(0);
     }
 }

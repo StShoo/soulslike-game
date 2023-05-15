@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SG;
 
 public class PursueTargetState : State
 {
-    private IdleState idleState;
+    protected IdleState idleState;
 
     private void Awake()
     {
