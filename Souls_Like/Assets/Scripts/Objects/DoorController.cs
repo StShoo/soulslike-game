@@ -6,6 +6,7 @@ using UnityEngine;
 public class DoorController : InteractableObject
 {
     private Animator doorAnimator;
+    [SerializeField] AudioSource doorSound;
     private bool isOpen = false;
     protected bool notAvaliable = false;
 
@@ -19,11 +20,13 @@ public class DoorController : InteractableObject
         if (!isOpen)
         {
             doorAnimator.Play("OpenDoor");
+            doorSound.Play();
             isOpen = true;
         }
         else
         {
             doorAnimator.Play("CloseDoor");
+            doorSound.Play();
             isOpen = false;
         }
     }

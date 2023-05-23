@@ -8,6 +8,7 @@ public class EndGameState : IdleState
 {
     public GameObject panel;
     public GameObject gameOverText;
+    /*public AudioSource deathMusic;*/
 
     protected override void MoveTowardsNextIdleMovementPoint(MonsterManager monsterManager)
     {
@@ -41,6 +42,7 @@ public class EndGameState : IdleState
             else
             {
                 StopMovement();
+                
                 StartCoroutine(Timedelay());
             }
         }

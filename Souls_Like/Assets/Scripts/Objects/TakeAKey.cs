@@ -7,6 +7,8 @@ public class TakeAKey : InteractableObject
 {
     public GameObject closedDoor;
     private ClosedDoorController closedDoorController;
+    public AudioSource keysSound;
+
     private void Awake()
     {
         closedDoorController = closedDoor.GetComponent<ClosedDoorController>();
@@ -14,6 +16,7 @@ public class TakeAKey : InteractableObject
     protected override void Interact(PlayerManager player)
     {
         closedDoorController.playerHasAKey = true;
+        keysSound.Play();
         Destroy(gameObject);
     }
 }

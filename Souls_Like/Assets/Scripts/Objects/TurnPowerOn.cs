@@ -13,6 +13,8 @@ public class TurnPowerOn : InteractableObject
 
     [SerializeField] Material lightOnMaterial;
 
+    [SerializeField] AudioSource lightsSound;
+
     [SerializeField] protected GameObject guitarIntaractableObject;
     protected override void Interact(PlayerManager player)
     {
@@ -40,6 +42,8 @@ public class TurnPowerOn : InteractableObject
 
             meshRenderer.materials = materials;
         }
+
+        lightsSound.Play();
 
         guitarIntaractableObject.GetComponent<PlayGuitar>().isElectricBoxOn = true;
     }
