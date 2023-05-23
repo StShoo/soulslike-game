@@ -102,7 +102,7 @@ public class IdleState : State
     {
         if (stateChangedFlag)
         {
-            i = newIndexOfPoint + 1;
+            i = newIndexOfPoint;
             stateChangedFlag = false;
         }
         Debug.Log("Index: " + i);

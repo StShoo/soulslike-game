@@ -34,6 +34,11 @@ namespace SG
         [SerializeField]
         private float rotationSpeed = 5;
 
+        [Header("Movement Sounds")]
+        public AudioSource walkingSteps;
+        public AudioSource crouchingSteps;
+        public AudioSource runningSteps;
+
         void Awake()
         {
             playerRigidbody = GetComponent<Rigidbody>();
@@ -88,15 +93,22 @@ namespace SG
             if (!isSprinting && !isCrouching && inputManager.moveAmount != 0)
             {
                 isWalking = true;
+                walkingSteps.Pause();
             }
             else
             {
                 isWalking = false;
+
+                runningSteps.Pause();
             }
 
             if (isSprinting && !isCrouching)
             {
                 moveDirection *= runningSpeed;
+
+                walkingSteps.Pause();
+                runningSteps.Play();
+
             }
             else if(isCrouching)
             {
@@ -108,6 +120,9 @@ namespace SG
                 {
                     moveDirection *= slowWalkingSpeed/2;
                 }
+
+                walkingSteps.Pause();
+                runningSteps.Pause();
             }
             else
             {
@@ -119,6 +134,9 @@ namespace SG
                 {
                     moveDirection *= slowWalkingSpeed;
                 }
+
+                walkingSteps.Play();
+                runningSteps.Pause();
             }
             
 
