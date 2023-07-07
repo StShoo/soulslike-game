@@ -1,5 +1,5 @@
 # Horror School Game
-Soulslike game project made with Unity engine.
+Horror game project made with Unity engine.
 
 ## To start work you need to do:
 # 1. 
